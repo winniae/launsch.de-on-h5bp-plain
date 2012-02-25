@@ -223,9 +223,11 @@ html {
 }
 body {
 	background-color:white;
+	border-left: 20px solid #6cc;
+	border-right: 20px solid #6cc;
 	margin: 20px auto;
 	width:500px;
-	padding: 40px;
+	padding: 20px;
 	text-align:center;
 }
 section {
