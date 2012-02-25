@@ -32,7 +32,7 @@ audio:not([controls]) { display: none; }
 
 html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 
-html, button, input, select, textarea { font-family: sans-serif; color: #222; }
+html, button, input, select, textarea { font-family: 'Calluna', 'Georgia', serif; color: #444; }
 
 body { margin: 0; font-size: 1em; line-height: 1.4; }
 
@@ -50,9 +50,9 @@ body { margin: 0; font-size: 1em; line-height: 1.4; }
    Links
    ========================================================================== */
 
-a { color: #00e; }
-a:visited { color: #551a8b; }
-a:hover { color: #06e; }
+a { color: #399; }
+a:visited { color: #399; }
+a:hover { color: #6cc; }
 a:focus { outline: thin dotted; }
 
 /* Improve readability when focused and hovered in all browsers: h5bp.com/h */
@@ -215,10 +215,38 @@ td { vertical-align: top; }
 
 
 /* ==|== primary styles =====================================================
-   Author:
+   Author: WMO
    ========================================================================== */
 
-
+html {
+	background-color:#6cc;
+}
+body {
+	background-color:white;
+	margin: 20px auto;
+	width:600px;
+	padding: 40px;
+	text-align:center;
+}
+section {
+	margin-top:60px;
+}
+footer {
+	margin-top:100px;
+	font-size:smaller;
+}
+h1 {
+	font-family:'le-havre-rounded', sans-serif;
+	font-weight:800;
+	font-size:40px;
+}
+h2 {
+	font-family:'le-havre-rounded', sans-serif;
+	font-weight:700;
+}
+pre {
+	font-family: 'Calluna', serif;
+}
 
 
 
